@@ -1,2 +1,15 @@
-# homework
-Tidb 面试题
+# 说明
+为了方便展示 bytes 数组，程序中用了 52 个英文字母。
+
+# 本人的测试环境
+CPU: Intel Core i7, 2GHz
+
+# 性能结果
+## 使用 goroutine 并发，~5.2ms；不使用 goroutine 并发，~22s.
+
+# 测试结果展示
+TargetKey: PhQuuIXwRQyUjkfGkkbAKFSSLiXWeQyDqAWlIuHvyVgEXdUfdPGzRrXJpfpvhoWiPwulraLXteRXGftOMBNVMROQDQjPtPKDvupTObmQopisUZyOFuJElhrnYfVMXozOvBxrtjchhjFsHYrnkppTqKbTImvOrBIcAjIrODlJJBKXIGzTHUDkEoPaXGlIRUBeVASGmcfPQYJumzMdsfVPRtVBHPUPpbjCrxaibpxJwOZNXhLKzqabuHSZXzyEpbTe
+
+Result:     PhQuuIXwRQyUjkfGkkbAKFSSLiXWeQyDqAWlIuHvyVgEXdUfdPGzRrXJpfpvhoWiPwulraLXteRXGftOMBNVMROQDQjPtPKDvupTObmQopisUZyOFuJElhrnYfVMXozOvBxrtjchhjFsHYrnkppTqKbTImvOrBIcAjIrODlJJBKXIGzTHUDkEoPaXGlIRUBeVASGmcfPQYJumzMdsfVPRtVBHPUPpbjCrxaibpxJwOZNXhLKzqabuHSZXzyEpbTe
+
+App elapsed:  5.157135ms
