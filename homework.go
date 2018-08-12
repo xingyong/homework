@@ -110,9 +110,12 @@ func ConcurrentBinarySearch(low, high []byte) {
     // fmt.Println("Coroutine ", runtime.NumGoroutine())
     half0 := HalfKey(low, high)
     if bytes.Compare(half0, low) == 0 {
-        kResult = low
+        if Search(high) != nil {
+            kResult = high
+        } else {
+            kResult = low
+        }
         kFound <- true
-        fmt.Println("Found: true")
         return
     }
 
